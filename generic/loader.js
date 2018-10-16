@@ -1,8 +1,9 @@
 export default {
   init() {
-    this.el = document.querySelector('[data-client-newApp]');
+    // TODO: Change the query selector
+    this.el = document.querySelector('[data-client-new-app]');
     if (this.el !== null) {
-      const data = JSON.parse(this.el.getAttribute('data-client-newApp-data'));
+      const data = JSON.parse(this.el.getAttribute('data-client-new-app-data'));
       this.launch(data);
     }
   },
