@@ -1,14 +1,11 @@
-import containerFactory                    from 'newApp/containers/factory';
+import * as propTypes                      from 'generic/constants/propTypes';
+import containerFactory                    from 'generic/containers/factory';
 import React, { PureComponent, PropTypes } from 'react';
 import styles                              from './styles';
 
 export default containerFactory(
   class App extends PureComponent {
-
     static propTypes = {
-    }
-
-    state = {
     }
 
     render() {

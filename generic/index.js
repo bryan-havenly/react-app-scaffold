@@ -4,11 +4,8 @@ import { render }           from 'react-dom';
 import App                  from './components/App';
 import React                from 'react';
 import store                from './store';
-import globalActions        from './actionCreators/global';
 
 module.exports = (targetEl, data) => {
-  store.dispatch(globalActions.load(data));
-
   const renderApp = AppComponent => {
     render(
       <Provider store={ store }>
