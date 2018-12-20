@@ -2,7 +2,7 @@
 
 The folders contained within are stripped back versions of apps to speed up development of new apps.
 
-All scaffolds all use the app name `newApp` for easy find/replacement.
+All scaffolds use their directory name in their import paths for easy find/replacement (`historyRoutingBased/constants/actionTypes` for example).
 
 ## Scaffolds
 
