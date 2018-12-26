@@ -1,4 +1,4 @@
-import * as actionTypes     from 'newApp/constants/actionTypes';
+import * as actionTypes from 'generic/constants/actionTypes';
 
 export default {
   load: data => ({
